@@ -1,0 +1,2 @@
+padrino stop
+./start.sh
