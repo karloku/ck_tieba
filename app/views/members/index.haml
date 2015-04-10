@@ -1,33 +1,57 @@
 %html
   %head
-    %style{type: "text/css"} th, td {padding: 10px 3px;}
-    %style{type: "text/css"} th {text-align: center}
-    %style{type: "text/css"} td {text-align: right}
-    %style{type: "text/css"} td.name {text-align: left}
+    :css
+      th, td {padding: 10px 3px;}
+      th {text-align: center;}
+      td {text-align: right;}
+      td.name {text-align: left;}
+      #member_box {
+        float: left;
+        overflow-y: scroll;
+        height: 100%
+      }
+      #comment_box {
+        float: right;
+        margin: 30px;
+        min-width: 600px;
+      }
   %body
-    %%table
-      %thead
-        %tr
-          %th 用户名
-          %th 积分
-          %th 等级
-          %th 精品数
-          %th 吧务
-          %th 制作组
-          %th 旧公式点数
-          %th 
-            abc第一公式点数</br>
-            （彩虹小马指数）
-      %tbody
-      - @members.each do |member| 
-        %tr
-          %td.name
-            %a{href: member.link}= member.name
-          %td= member.score
-          %td= member.calculated_level.round(2).to_s
-          %td
-            %a{href: :jp}= member.highlights_count
-          %td= member.role_desc
-          %td= member.is_modder? ? "是" : "否"
-          %td= member.point.round(2).to_s
-          %td= member.point_may_use.round(2).to_s
+    #member_box
+      %table#member_table
+        %thead
+          %tr
+            %th 用户名
+            %th 积分
+            %th 等级
+            %th 精品数
+            %th 吧务
+            %th 制作组
+            %th 旧公式点数
+            %th 
+              abc第一公式点数</br>
+              （彩虹小马指数）
+        %tbody
+        - @members.each do |member| 
+          %tr
+            %td.name
+              %a{href: member.link}= member.name
+            %td= member.score
+            %td= member.calculated_level.round(2).to_s
+            %td
+              %a{href: :jp}= member.highlights_count
+            %td= member.role_desc
+            %td= member.is_modder? ? "是" : "否"
+            %td= member.point.round(2).to_s
+            %td= member.point_may_use.round(2).to_s
+    #comment_box
+      #disqus_thread
+        :javascript
+          var disqus_shortname = 'cktieba';
+            
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      %noscript
+        Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
