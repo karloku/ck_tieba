@@ -1,0 +1,1665 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"high",
+				"highlight"
+			],
+			[
+				"hi",
+				"highlights"
+			],
+			[
+				"hig",
+				"highlight"
+			],
+			[
+				"member",
+				"member"
+			],
+			[
+				"membe",
+				"member"
+			],
+			[
+				"auth",
+				"author_member"
+			],
+			[
+				"au",
+				"author_member"
+			],
+			[
+				"ROLE",
+				"ROLE_DESC"
+			],
+			[
+				"user",
+				"user_role"
+			],
+			[
+				"h",
+				"highlights_count"
+			],
+			[
+				"level",
+				"level_low"
+			],
+			[
+				"mem",
+				"member_j"
+			],
+			[
+				"each",
+				"each_consumer"
+			],
+			[
+				"consu",
+				"consumer_size"
+			],
+			[
+				"pro",
+				"producer_size"
+			],
+			[
+				"queue",
+				"queue_size"
+			],
+			[
+				"con",
+				"consumer_pool"
+			],
+			[
+				"each_",
+				"each_consumer"
+			],
+			[
+				"produce",
+				"producer_pool"
+			],
+			[
+				"cons",
+				"consumer_pool"
+			],
+			[
+				"produ",
+				"producer_pool"
+			],
+			[
+				"que",
+				"queue_size"
+			],
+			[
+				"dir",
+				"dirname"
+			],
+			[
+				"un",
+				"unrespondable_methods"
+			],
+			[
+				"is",
+				"is_validate_rule"
+			],
+			[
+				"rule",
+				"rule_instance"
+			],
+			[
+				"ru",
+				"rule_instance"
+			],
+			[
+				"Rule",
+				"RuleSet"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"Ru",
+				"RuleSet"
+			],
+			[
+				"editor",
+				"editor_id"
+			],
+			[
+				"Geo",
+				"GeoJSON"
+			],
+			[
+				"GEO",
+				"GeoJSON"
+			],
+			[
+				"column",
+				"column_id"
+			],
+			[
+				"new",
+				"new_column"
+			],
+			[
+				"push",
+				"push_notification_device"
+			],
+			[
+				"present",
+				"present_error_422"
+			],
+			[
+				"do",
+				"do"
+			],
+			[
+				"assert",
+				"assert_equal"
+			],
+			[
+				"tag",
+				"tag_2"
+			],
+			[
+				"infor",
+				"information_set"
+			],
+			[
+				"info",
+				"information_set"
+			],
+			[
+				"information",
+				"information_set"
+			],
+			[
+				"su",
+				"success_count"
+			],
+			[
+				"sta",
+				"stay_time_per_word"
+			],
+			[
+				"st",
+				"stay_time_per_word"
+			],
+			[
+				"read",
+				"read_record"
+			],
+			[
+				"stay",
+				"stay_time"
+			],
+			[
+				"comment",
+				"comment_id"
+			],
+			[
+				"read_",
+				"read_information_ids"
+			],
+			[
+				"favo",
+				"favoured_by"
+			],
+			[
+				"presen",
+				"present_error_422"
+			],
+			[
+				"hgi",
+				"highlight"
+			],
+			[
+				"hight",
+				"hgihlight"
+			],
+			[
+				"inf",
+				"information_id"
+			],
+			[
+				"pr",
+				"present_error_422"
+			],
+			[
+				"API",
+				"APIEntities"
+			],
+			[
+				"users",
+				"users"
+			],
+			[
+				"Entit",
+				"Entities"
+			],
+			[
+				"curr",
+				"current_user"
+			],
+			[
+				"Enti",
+				"Entities"
+			],
+			[
+				"rand",
+				"random_tag"
+			],
+			[
+				"origi",
+				"origin_website_url"
+			],
+			[
+				"ori",
+				"origin_website"
+			],
+			[
+				"the",
+				"the_information"
+			],
+			[
+				"fi",
+				"find"
+			],
+			[
+				"ran",
+				"random_information"
+			],
+			[
+				"rea",
+				"read_records"
+			],
+			[
+				"al",
+				"alipay_account"
+			],
+			[
+				"find",
+				"find_by_email"
+			],
+			[
+				"use",
+				"User"
+			],
+			[
+				"smtp",
+				"smtp_settings"
+			],
+			[
+				"coo",
+				"coordinate"
+			],
+			[
+				"coor",
+				"coordinates"
+			],
+			[
+				"co",
+				"coordinate"
+			],
+			[
+				"uni",
+				"uniqueness"
+			],
+			[
+				"Co",
+				"ColumnForUser"
+			],
+			[
+				"count",
+				"count_a7"
+			],
+			[
+				"count_",
+				"count_a4"
+			],
+			[
+				"medi",
+				"median_mylist"
+			],
+			[
+				"av",
+				"avg_mylist"
+			],
+			[
+				"my",
+				"mylist_count"
+			],
+			[
+				"median",
+				"median_comment"
+			],
+			[
+				"avg",
+				"avg_comment"
+			],
+			[
+				"comm",
+				"comment_count"
+			],
+			[
+				"view",
+				"view_count"
+			],
+			[
+				"vi",
+				"videos"
+			],
+			[
+				"media",
+				"median_length"
+			],
+			[
+				"total",
+				"total_length"
+			],
+			[
+				"Vide",
+				"VideoMetadata"
+			],
+			[
+				"vide",
+				"video_metadata"
+			],
+			[
+				"vid",
+				"video_metadata"
+			],
+			[
+				"video",
+				"video_metadatum"
+			],
+			[
+				"page",
+				"page_size"
+			],
+			[
+				"event",
+				"event_candidate_id"
+			],
+			[
+				"friend",
+				"friend_ids"
+			],
+			[
+				"fried",
+				"friend_ids"
+			],
+			[
+				"even",
+				"event_candidate_id"
+			],
+			[
+				"end",
+				"end"
+			],
+			[
+				"tota",
+				"total_place"
+			],
+			[
+				"deal",
+				"deal_subcate_id"
+			],
+			[
+				"to",
+				"to_i"
+			],
+			[
+				"resque",
+				"resque_environment"
+			],
+			[
+				"filter",
+				"filtered_params"
+			],
+			[
+				"fil",
+				"filter_parameter_names"
+			],
+			[
+				"tuangou",
+				"tuangou"
+			],
+			[
+				"unp",
+				"unprocessed_notifs"
+			],
+			[
+				"u",
+				"unprocessed_notifs"
+			],
+			[
+				"unpr",
+				"unprocessed_requests_user_ids"
+			],
+			[
+				"FRIEND",
+				"FRIEND_CHANGE"
+			],
+			[
+				"sub",
+				"subcate_id"
+			],
+			[
+				"password_reset",
+				"password_resets_update"
+			],
+			[
+				"password",
+				"password_confirmation"
+			],
+			[
+				"pas",
+				"password_resets_new"
+			],
+			[
+				"require",
+				"require_relative"
+			],
+			[
+				"vie",
+				"view_paths"
+			],
+			[
+				"feeb",
+				"feedback"
+			],
+			[
+				"se",
+				"settings"
+			],
+			[
+				"Hash",
+				"HashServerThin"
+			],
+			[
+				"sug",
+				"suggested_user_ids"
+			],
+			[
+				"sin",
+				"single_message_json"
+			],
+			[
+				"message",
+				"message"
+			],
+			[
+				"mesa",
+				"message_json"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"pl",
+				"place"
+			],
+			[
+				"show",
+				"show_unread_count"
+			],
+			[
+				"sor",
+				"sor	sort { |a, b| .. }"
+			],
+			[
+				"App",
+				"ApplePushNotification"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 657,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/members.rb",
+			"settings":
+			{
+				"buffer_size": 1633,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/jp.rb",
+			"settings":
+			{
+				"buffer_size": 1138,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/jp/index.haml",
+			"settings":
+			{
+				"buffer_size": 270,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/index.html",
+			"settings":
+			{
+				"buffer_size": 46,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/app.rb",
+			"settings":
+			{
+				"buffer_size": 2836,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/member.rb",
+			"settings":
+			{
+				"buffer_size": 1778,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/highlight.rb",
+			"settings":
+			{
+				"buffer_size": 124,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Ruby/Ruby.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Rake.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Ruby/Ruby.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"last_filter": "set ham",
+		"selected_items":
+		[
+			[
+				"set ham",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"set ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"set ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"code",
+				"Codekit: Add project"
+			],
+			[
+				"set rub",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set ror",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"preference",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"set json",
+				"Set Syntax: JSON"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ror",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"pacage co",
+				"Package Control: List Packages"
+			],
+			[
+				"set htm",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"set obj",
+				"Set Syntax: Objective-C"
+			],
+			[
+				"notifi",
+				"SVN: Resolve Tree Conflict, Interactive…"
+			],
+			[
+				"setror",
+				"Set Syntax: Ruby on Rails"
+			],
+			[
+				"set rabl",
+				"Set Syntax: Rabl"
+			],
+			[
+				"set",
+				"Set Syntax: Tcl"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			]
+		],
+		"width": 530.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"str(os.popen('src').read())",
+			"str(os.popen('src'))",
+			"print(os.popen('src'))",
+			"str('hey')",
+			"print 'heey'",
+			"import io",
+			"import print",
+			"print 'fk';",
+			"print 'fk'",
+			"print os.popen('src')",
+			"os.eval",
+			"os",
+			"os.execute('src')",
+			"os.popen('src')",
+			"import os",
+			"os.popen('src')",
+			"print environ['PATH'];",
+			"print environ['PATH']",
+			"environ['PATH']",
+			"from os import environ",
+			"print ",
+			"environ['PATH']",
+			"platform.system()",
+			"import platform",
+			"print a",
+			"print a;",
+			"print a",
+			"a= os.popen('echo $PATH$');",
+			"print os.popen('echo $PATH$');",
+			"print os.popen('echo $PATH$')",
+			"os.popen('echo $PATH$')",
+			"os.system('echo')",
+			"os.system('echo ni')",
+			"os.system('echo $PATH$')",
+			"import os",
+			"import 'os';",
+			"import 'os'",
+			"os.system('echo $PATH$')",
+			"echo $PATH$",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/karloku/Workspaces/ck_tieba",
+		"/Users/karloku/Workspaces/ck_tieba/app",
+		"/Users/karloku/Workspaces/ck_tieba/app/controllers",
+		"/Users/karloku/Workspaces/ck_tieba/app/helpers",
+		"/Users/karloku/Workspaces/ck_tieba/app/views",
+		"/Users/karloku/Workspaces/ck_tieba/app/views/jp",
+		"/Users/karloku/Workspaces/ck_tieba/app/views/members",
+		"/Users/karloku/Workspaces/ck_tieba/bin",
+		"/Users/karloku/Workspaces/ck_tieba/config",
+		"/Users/karloku/Workspaces/ck_tieba/log",
+		"/Users/karloku/Workspaces/ck_tieba/models",
+		"/Users/karloku/Workspaces/ck_tieba/public",
+		"/Users/karloku/Workspaces/tieba"
+	],
+	"file_history":
+	[
+		"/Users/karloku/Workspaces/ck_tieba/app/views/members/index.haml",
+		"/Users/karloku/Workspaces/tieba/members.rb",
+		"/Users/karloku/Workspaces/tieba/法兰西岛伯爵",
+		"/Users/karloku/Workspaces/tieba/  from /Users/karloku/Workspaces/tieba/members.rb",
+		"/Users/karloku/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/rest-client-1.8.0/lib/restclient/request.rb",
+		"/Users/karloku/Workspaces/tieba/WARNING",
+		"/Users/karloku/Workspaces/tieba/jp.rb",
+		"/Users/karloku/Workspaces/gem/yunhe/README.md",
+		"/Users/karloku/Workspaces/gem/yunhe/lib/yunhe/Rakefile",
+		"/Users/karloku/Workspaces/gem/yunhe/Gemfile",
+		"/Users/karloku/Workspaces/gem/yunhe/lib/yunhe/river.rb",
+		"/Users/karloku/Workspaces/gem/yunhe/lib/yunhe/monitor.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/Gemfile",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/rule/rule_set.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/rule/rule.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/web_crawler.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/index_crawler.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/document_crawler.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/information_crawler.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/rule/invalid_rule_error.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/WebCrawler/rule/  from /Users/karloku/.rbenv/versions/2.2.1/lib/ruby/site_ruby/2.2.0/rubygems/core_ext/kernel_require.rb",
+		"/Users/karloku/.ShadowsocksX/gfwlist.js",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoWebsiteDemo/index.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/factories/information.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/lib/region.json",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/user.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/factories/users.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/Gemfile",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/mongoid.yml",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/locales/zh-CN.yml",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/routes.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/mailers/reset_password_mailer_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/mailers/reset_password_mailer.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/region.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/comment.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/favorite.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/information.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/read_record.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/user_activity.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/highlight.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/geo_json.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/factories/tags.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/tag.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/lib/tasks/grape_routes.rake",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/models/information_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/geo_json_point.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/test_helper.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/column.rb",
+		"/Users/karloku/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/geo_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/users_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/information_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/highlights_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/models/user_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/controllers/users_controller_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/api/users_api_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/models/tag_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/sorcery_adapter.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/helpers.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/editor/helpers.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/editor/route_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/editor/information_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/editor/users_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/settings_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/route_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/mailers/previews/reset_password_mailer_preview.rb",
+		"/Users/karloku/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/karloku/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/columns_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/api/route_api_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/fixtures/tags.yml",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/controllers/users_controller.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/comments_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/read_records_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api/favorites_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/api/user_sessions_api_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/api/users_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/read_records_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/information_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/highlights_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/favorites_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/comments_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/users_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/user_sessions_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/route_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/log/development.log",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/user_sessions_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/read_records_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/information_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/users_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/highlights_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/favorites_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/hugo/comments_api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/table_of_contents.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/js/search_index.js",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/index.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities/User.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities/ReadRecord.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities/MongoEntity.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities/Information.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities/Highlight.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities/Favorite.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities/Comment.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/doc/Hugo/APIEntities.html",
+		"/Users/karloku/Desktop/test.html",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/initializers/rmm_seg.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/enumeration.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/models/push_notification_device.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/models/geo_json_point_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/initializers/sorcery.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/controllers/user_controller.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/test/models/geo_json_test.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/application.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/environments/development.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/locales/zh_cn.yml",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/api.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/app/api/users.rb",
+		"/Users/karloku/Workspaces/Tapas/Projects/HugoServer/config/initializers/session_store.rb",
+		"/Users/karloku/Workspaces/一财/Arch/接口",
+		"/Users/karloku/Workspaces/han/input.txt",
+		"/Users/karloku/Workspaces/一财/Arch/模型(初)",
+		"/Users/karloku/Workspaces/一财/Arch/模块",
+		"/Users/karloku/Workspaces/niconiconi/niconiconi/config/environments/development.rb",
+		"/Users/karloku/Workspaces/niconiconi/niconiconi/app/views/tags/index.html.erb",
+		"/Users/karloku/Workspaces/niconiconi/niconiconi/app/views/tags/show.html.erb",
+		"/Users/karloku/Workspaces/niconiconi/niconiconi/config/routes.rb",
+		"/Users/karloku/Workspaces/niconiconi/niconiconi/script/import_metadata.rb"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/karloku/Workspaces/Tapas/Projects/HugoServer",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/routes",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/views",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/routes",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/views",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/routes",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/models",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/models",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/routes",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/views",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin",
+			"/Users/karloku/Workspaces/Hash Project/sinatra/hash-server-thin/routes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"[2] pry(main)*",
+			"[74] pry(main)*   ",
+			"present_error_404",
+			"roles",
+			"role",
+			"update_attribute",
+			"resources",
+			"included",
+			"checking",
+			"\n  },\n  {",
+			"(\\d+)\\\"\\: \\\"([^\\\"]+)\\\"\n    \\}",
+			"(\\d+)\\\"\\: \\\"([^\\\"]+)\\\"\n    \\},",
+			"(\\d+)\": \"([^\\\"]+)\"\n    },",
+			"    {\n      ",
+			"Hugo::API::",
+			"Hugo::UsersAPI",
+			"Hugo::APIEntities",
+			"group",
+			"hgihlight",
+			"Hugo::Entities",
+			"GeoJsonPoint",
+			"mail",
+			"\"t.co",
+			"t.co",
+			"- ",
+			"\\t",
+			"\\",
+			"\\t",
+			",",
+			"<deal_subcate_id>95</deal_subcate_id>",
+			"足浴",
+			"<deal_cate_id>217",
+			"<deal_cate_id>206",
+			"<deal_cate_id>208",
+			"<deal_subcate_id>275</deal_subcate_id>",
+			"按摩",
+			"return",
+			"puts",
+			"<deal_subcate_id>10</deal_subcate_id>",
+			"(loc\\[\\d\\]\\.to_)i",
+			"loc\\[\\d\\]\\.to_i",
+			"loc\\[\\d\\]",
+			"tuangou_item.url",
+			"reset",
+			"print",
+			"puts",
+			"events_has_new_message",
+			"    #\\s+@errors",
+			"    status 422\n    rabl :'default/unprocessable_entity'\n\n",
+			"render_422\\((\\S+)\\)",
+			"render_422\\((\\\\)",
+			"render_422\\((\\S+)\\)",
+			"identity",
+			"puts",
+			"user,",
+			"<deal_cate_id>226</deal_cate_id>\n<deal_cate>美食</deal_cate>\n<deal_subcate_id>296</deal_subcate_id>\n<deal_subcate>抽奖</deal_subcate>\n",
+			"2d",
+			"^.*loku(?!\\.it)$",
+			"suggested_friends",
+			"source",
+			"suggested_friends",
+			"apns",
+			"events_show",
+			":event_id",
+			".delay.",
+			" tuangou",
+			"username",
+			"(event.errors)",
+			"^ +$",
+			"last_read",
+			"MessageLastRead",
+			"last_read_time",
+			"  rescue Mongoid::Errors::MongoidError => e\n    @errors = prepare_mongoid_errors(e) \n    status 422\n    rabl :'default/unprocessable_entity'\n",
+			"display_name:",
+			"def ",
+			"events_show",
+			"event-",
+			"event_show",
+			"index",
+			"dc.set(\"user",
+			"dc",
+			"dc.set(\"user",
+			"dc",
+			"\\s+\\|([\\w\\_]+)",
+			"\\(\\.\\:format\\)",
+			"DELETE\\|",
+			" GET  \\|",
+			"^\\|\\s+\\w*\\|",
+			"\\s+\\|([\\w\\_]+)",
+			"\\(\\.\\:format\\)",
+			" PUT  \\|",
+			"^\\|\\s+\\w*\\|",
+			" GET  \\|",
+			"^end",
+			"\\s+\\|([\\w\\_]+)",
+			"\\(\\.\\:format\\)",
+			" POST \\|",
+			"DELETE\\|",
+			" PUT  \\|",
+			" GET  \\|",
+			"^\\|\\s+\\w*\\|",
+			"rabl :'events_",
+			"render :status => :unauthorized",
+			"\\s+\\|([\\w\\_]+)",
+			"\\(\\.\\:format\\)",
+			" PUT  \\|",
+			" POST \\|",
+			"DELETE\\|",
+			" GET  \\|",
+			"^\\|\\s+\\w*\\|",
+			"^end",
+			"\\s+\\|([\\w\\_]+)",
+			"\\(\\.\\:format\\)",
+			"delete \\|",
+			"get  \\|",
+			"^\\|\\s+\\w*\\|DELETE",
+			"^\\|\\s+\\w*\\| GET",
+			"  ",
+			"^ ",
+			"^\\s",
+			"^\\s+\\|([\\w\\_]+)",
+			"\\(\\.\\:format\\)",
+			"(.:format)",
+			"GET  |",
+			"^\\|\\s+\\w*\\|",
+			"render",
+			"\\s+$",
+			"def "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"  ",
+			"resource",
+			",",
+			"$1\": {\n      \"name\": \"$2\",\n      \"cities\": {}\n      }",
+			"$1\": {\n      \"name\": \"$2\",\n      \"cities\": {}\n      },",
+			"    ",
+			"",
+			"API::",
+			"Hugo::API::Entities",
+			"highlight",
+			"Hugo::APIEntities",
+			"",
+			",",
+			"\\t",
+			"$1f",
+			"tuangou_item.show_path",
+			"      status 422\n      rabl :'default/unprocessable_entity'\n",
+			"@errors = $1\n    status 422\n    rabl :'default/unprocessable_entity'\n",
+			"idno",
+			"users,",
+			"from",
+			":id",
+			"",
+			"(@event.errors)",
+			"",
+			"read_flag",
+			"MessageReadFlag",
+			"time_flag",
+			"",
+			"def groups_",
+			" do\\n  notifications_$1\\nend\\n",
+			"'",
+			"delete '",
+			"get '",
+			"",
+			"\\n  news_$1\\nend\\n",
+			"' do",
+			"put '",
+			"",
+			"get '",
+			"end\\n",
+			"\\n  events_$1\\nend",
+			"' do",
+			"post '",
+			"delete '",
+			"put '",
+			"get '",
+			"",
+			"rabl :'events/",
+			"status 401\nrabl :'default/unauthorized'",
+			" do\\n  lights_$1\\nend\\n",
+			"'",
+			"put '",
+			"post '",
+			"delete '",
+			"get '",
+			"",
+			"end\\n",
+			"\\n  friends_$1\\nend",
+			"' do",
+			"delete '",
+			"get '",
+			"delete ",
+			"get",
+			"  interests_",
+			"  ",
+			" ",
+			"",
+			"  $1\\n",
+			"' do\\n",
+			"get '",
+			"",
+			"\\n",
+			"",
+			"def subscriptions_",
+			"status 422\nrabl :'default/unprocessable_entity'",
+			"put",
+			"delete",
+			"post",
+			"get",
+			"$1 '$2' do\\n\\tusers_$3\\nend\\n",
+			"$1 '$2' do\\n\\tusers_$3\\nend",
+			"",
+			"def users_"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 657,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								413,
+								413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/members.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								538,
+								538
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/jp.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1138,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1126,
+								1126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/jp/index.haml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 270,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								71,
+								71
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Rails/Ruby Haml.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "public/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 46,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								42
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/app.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2812,
+								2812
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 204.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "models/member.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1778,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								773,
+								778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 789.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "models/highlight.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 57.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ck_tieba.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"eventbase",
+				"hash-server-thin/models/event_base.rb"
+			],
+			[
+				"event",
+				"hash-server-thin/models/event.rb"
+			],
+			[
+				"notifi",
+				"hash-server-thin/models/notification.rb"
+			],
+			[
+				"members",
+				"hash-server-thin/helpers/members_helper.rb"
+			],
+			[
+				"user",
+				"hash-server-thin/models/user.rb"
+			],
+			[
+				"friend",
+				"hash-server-thin/models/friend.rb"
+			],
+			[
+				"device",
+				"hash-server-thin/models/device.rb"
+			],
+			[
+				"eent",
+				"hash-server-thin/models/event.rb"
+			],
+			[
+				"pushn",
+				"hash-server-thin/models/push_notification.rb"
+			],
+			[
+				"message",
+				"hash-server-thin/models/message.rb"
+			],
+			[
+				"messagerout",
+				"hash-server-thin/routes/messages_route.rb"
+			],
+			[
+				"tuangoui",
+				"hash-server-thin/models/tuangou_item.rb"
+			],
+			[
+				"black",
+				"hash-server-thin/models/blacklist.rb"
+			],
+			[
+				"user.rb",
+				"hash-server-thin/models/user.rb"
+			],
+			[
+				"bl",
+				"hash-server-thin/models/blacklist.rb"
+			],
+			[
+				"eventse",
+				"models/event_setting.rb"
+			],
+			[
+				"push",
+				"models/push_notification.rb"
+			],
+			[
+				"mes",
+				"models/message.rb"
+			],
+			[
+				"indexmine",
+				"views/events/index_mine.rabl"
+			],
+			[
+				"index",
+				"views/contacts/index.rabl"
+			],
+			[
+				"event.rb",
+				"models/event.rb"
+			],
+			[
+				"friend.rb",
+				"models/friend.rb"
+			],
+			[
+				"tuangouite",
+				"models/tuangou_item.rb"
+			],
+			[
+				"eventcand",
+				"models/event_candidate.rb"
+			],
+			[
+				"messa",
+				"models/message.rb"
+			],
+			[
+				"tuangou",
+				"models/tuangou_item.rb"
+			],
+			[
+				"eventrou",
+				"routes/events_routes.rb"
+			],
+			[
+				"eventcanrout",
+				"routes/event_candidates_routes.rb"
+			],
+			[
+				"candidate",
+				"models/event_candidate.rb"
+			],
+			[
+				"eventca",
+				"routes/event_candidates_routes.rb"
+			],
+			[
+				"eventroutes",
+				"routes/events_routes.rb"
+			],
+			[
+				"noti",
+				"models/notification.rb"
+			],
+			[
+				"exter",
+				"models/external_account.rb"
+			],
+			[
+				"conta",
+				"models/contact.rb"
+			],
+			[
+				"friendrouts",
+				"routes/friends_routes.rb"
+			],
+			[
+				"userrouts",
+				"routes/users_routes.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Workspaces/Hash Project/hash-server.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 229.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

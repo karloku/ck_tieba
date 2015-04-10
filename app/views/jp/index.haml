@@ -1,0 +1,11 @@
+%html
+  %body
+    %h1 ======精品======
+    %h3= "总计 #{@highlights.size} 篇"
+    %ul
+    - @highlights.each do |highlight|
+      %li 
+        %span
+          %a{href: :members}= highlight.author.name
+          %span= " : "
+          %a{href: highlight.link}= highlight.title
