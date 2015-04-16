@@ -55,7 +55,8 @@ class Member
     '台南鄉民',
     '法兰西岛伯爵',
     'wbxz1629',
-    '谦逊的豌豆'
+    '谦逊的豌豆',
+    'abcdgh'
   ]
 
   field :name, type: String
