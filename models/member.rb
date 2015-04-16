@@ -54,7 +54,8 @@ class Member
   MODDER_LIST = [
     '台南鄉民',
     '法兰西岛伯爵',
-    'wbxz1629'
+    'wbxz1629',
+    '谦逊的豌豆'
   ]
 
   field :name, type: String
