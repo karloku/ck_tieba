@@ -56,7 +56,8 @@ class Member
     '法兰西岛伯爵',
     'wbxz1629',
     '谦逊的豌豆',
-    'abcdgh'
+    'abcdgh',
+    'Kar_loku'
   ]
 
   field :name, type: String
