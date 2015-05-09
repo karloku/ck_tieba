@@ -30,6 +30,7 @@
             <tbody>
               <tr ng-repeat="member in members | filter:query">
                 <td>
+                  <img src="http://i62.tinypic.com/ev52xv.gif" ng-if="member.name == 'abcdgh'">
                   <a ng-href="{{member.link}}" target="_blank">
                     {{member.name}}
                   </a>
