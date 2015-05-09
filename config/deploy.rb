@@ -66,8 +66,9 @@ task :deploy => :environment do
     # invoke :'rails:db_migrate'
     # invoke :'rails:assets_precompile'
     queue "bower install"
-    queue "whenever -w"
     invoke :'deploy:cleanup'
+
+    queue "whenever -w"
 
     to :launch do
       queue "mkdir -p #{deploy_to}/#{current_path}/tmp/"
