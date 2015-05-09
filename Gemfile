@@ -22,6 +22,10 @@ gem 'mongoid', '~>3.0.0'
 # Padrino Stable Gem
 gem 'padrino', '0.12.5'
 
+# Grape
+gem 'grape'
+gem 'grape-entity'
+
 # rest_client
 gem 'rest_client'
 

@@ -63,6 +63,8 @@ class Member
   field :name, type: String
   field :link, type: String, default: ->{''}
   field :score, type: Integer, default: ->{0}
+  field :point, type: Float, default: ->{0}
+  field :point_may_use, type: Float, default: ->{0}
 
   validates_uniqueness_of :name
   has_many :highlights
@@ -96,20 +98,24 @@ class Member
       level.to_f + (score - level_low).to_f / next_level_score
   end
 
-  def point
+  def calc_point
     0.25 * (calculated_level ** 2) - 2.25 * calculated_level + 14 + 
     1.5 * highlights_count + 
     ROLE_SCORES[role] + 
     (is_modder? ? 2 : 0)
   end
 
-  def point_may_use
+  def calc_point_may_use
     0.25 * (calculated_level ** 2) - 2.25 * calculated_level + 14 +
     30 * (1 - 0.95 ** highlights_count) +
     ROLE_SCORES[role] +
     (is_modder? ? 2 : 0)
   end
 
+  before_save do
+    self.point = calc_point
+    self.point_may_use = calc_point_may_use
+  end
 
   index({name: 1}, {unique: true})
 

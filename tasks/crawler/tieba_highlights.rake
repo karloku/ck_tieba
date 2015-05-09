@@ -22,7 +22,8 @@
       highlight.link = link
       highlight.title = title
       highlight.save
-    
+      
+      member.save
     end
   end
 

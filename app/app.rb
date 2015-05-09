@@ -61,8 +61,5 @@ module CkTieba
     #     render 'errors/500'
     #   end
     #
-    get '/' do
-        '<a href="/members">吧友</a></br><a href="/jp">精品</a>'
-    end
   end
 end

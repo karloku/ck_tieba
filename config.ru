@@ -5,5 +5,7 @@
 # just execute it from the command line.
 
 require File.expand_path("../config/boot.rb", __FILE__)
+require File.expand_path("../app/api/api.rb", __FILE__)
 
-run Padrino.application
+run Rack::Cascade.new [CkTieba::API, Padrino.application]
+# run Padrino.application
