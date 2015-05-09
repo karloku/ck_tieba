@@ -62,35 +62,34 @@
 
     <pane title="精品">
       <div ng-controller="Highlights">
-        <div ng-repeat="highlight in highlights">
-          <div class="page-header">
-            <div class="container">
-              <input ng-model="query_highlight" class="form-control" placeholder="&#x1f50e; 寻找神贴...">
-            </div>
-          </div>
+        <div class="page-header">
           <div class="container">
-            <table class="table table-bordered table-striped">
-              <thead>
-                <th>作者</th>
-                <th>标题</th>
-              </thead>
-              <tbody>
-                <tr ng-repeat="highlight in highlights | filter:query_highlight">
-                  <td>
-                    {{highlight.member}}
-                  </td>
-                  <td>
-                    <a ng-href="{{highlight.link}}" target="_blank">
-                      {{highlight.title}}
-                    </a>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <input ng-model="query_highlight" class="form-control" placeholder="&#x1f50e; 寻找神贴...">
           </div>
+        </div>
+        <div class="container">
+          <table class="table table-bordered table-striped">
+            <thead>
+              <th>作者</th>
+              <th>标题</th>
+            </thead>
+            <tbody>
+              <tr ng-repeat="highlight in highlights | filter:query_highlight">
+                <td>
+                  {{highlight.member}}
+                </td>
+                <td>
+                  <a ng-href="{{highlight.link}}" target="_blank">
+                    {{highlight.title}}
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </pane>
+
   </tabs>
   </body>
 </html>
