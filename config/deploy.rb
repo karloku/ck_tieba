@@ -1,6 +1,7 @@
 require 'mina/bundler'
 require 'mina/rails'
 require 'mina/git'
+require 'mina/whenever'
 # require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 # require 'mina/rvm'    # for rvm support. (http://rvm.io)
 
@@ -19,7 +20,7 @@ set :branch, 'master'
 
 # Manually create these paths in shared/ (eg: shared/config/database.yml) in your server.
 # They will be linked in the 'deploy:link_shared_paths' step.
-set :shared_paths, ['config/database.rb', 'log', 'tmp']
+set :shared_paths, ['config/database.rb', 'log']
 
 # Optional settings:
 #   set :user, 'foobar'    # Username in the server to SSH to.
@@ -65,10 +66,9 @@ task :deploy => :environment do
     invoke :'bundle:install'
     # invoke :'rails:db_migrate'
     # invoke :'rails:assets_precompile'
+    invoke :'whenever:update'
     queue "bower install"
     invoke :'deploy:cleanup'
-
-    queue "whenever -w"
 
     to :launch do
       queue "mkdir -p #{deploy_to}/#{current_path}/tmp/"
