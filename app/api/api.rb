@@ -43,10 +43,14 @@ module CkTieba
 
       class Member < Grape::Entity
         expose :name
+        expose :link
         expose :score
         expose :calculated_level
+        expose :highlights_count
         expose :role_desc
-        expose :is_modder?
+        expose :is_modder_desc do |member, options|
+          member.is_modder? ? '是' : '否'
+        end
         expose :point_may_use
       end
     end

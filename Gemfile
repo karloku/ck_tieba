@@ -44,6 +44,13 @@ gem 'whenever', :require => false
 # nokogiri
 gem 'nokogiri'
 
+# assets
+gem 'padrino-sprockets', :require => "padrino/sprockets"
+# enable js minification
+gem 'uglifier'
+# enable css compression
+gem 'yui-compressor'
+
 # Or Padrino Edge
 # gem 'padrino', :github => 'padrino/padrino-framework'
 

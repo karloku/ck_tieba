@@ -10,6 +10,15 @@ module CkTieba
     #
     register Padrino::Cache
     enable :caching
+
+    ## 
+    # Padrino-sprockets
+    #
+    register Padrino::Sprockets
+    sprockets url:   'assets',
+              root:  Padrino.root('app'),
+              paths: %w[assets/components],
+              minify: (Padrino.env == :production)
     #
     # You can customize caching store engines:
     #
