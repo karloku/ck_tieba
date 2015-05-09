@@ -1,8 +1,9 @@
 .DS_Store
 log/**/*
-tmp/**/*
+tmp
 vendor/gems/*
 !vendor/gems/cache/
 .sass-cache/*
 db/*.db
 .*.sw*
+assets/components
