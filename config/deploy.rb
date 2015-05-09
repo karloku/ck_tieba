@@ -9,7 +9,7 @@ require 'mina/git'
 #   deploy_to    - Path to deploy into.
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
-set :domain, 'ck.loku.it'
+set :domain, 'service.loku.it'
 set :deploy_to, '/home/karloku/servers/ck_tieba'
 set :repository, 'git://github.com/karloku/ck_tieba.git'
 set :branch, 'master'
