@@ -3,101 +3,30 @@
   <head>
     <title>十字军之王吧统计局</title>
     <script src="http://cdn.bootcss.com/angular.js/1.3.15/angular.min.js"></script>
+    <script src="http://cdn.bootcss.com/angular-ui-bootstrap/0.13.0/ui-bootstrap-tpls.min.js"></script>
+    <script src="http://cdn.bootcss.com/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
     <script src="js/components.js"></script>
     <script src="js/app.js"></script>
+
     <link href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="components/flat-ui/dist/css/flat-ui.css">
   </head>
-  <body>
+  <body ng-controller="indexController">
 
-  <tabs>
-    <pane title="玩家">
-      <div ng-controller="Members">
-        <div class="page-header">
-          <div class="container">
-            <div class="input-group">
-              <span class="input-group-addon" id="search-addon-members">&#x1f50e;</span>
-              <input ng-model="query" class="form-control" placeholder="寻找丧失..." aria-describedby="search-addon-members">
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <table class="table table-bordered table-striped">
-            <thead>
-              <th>用户名</th>
-              <th>积分</th>
-              <th>等级</th>
-              <th>精品数</th>
-              <th>吧务</th>
-              <th>制作组</th>
-              <th>abc-彩虹小马指数</th>
-            </thead>
-            <tbody>
-              <tr ng-repeat="member in members | filter:query">
-                <td>
-                  <img src="http://i62.tinypic.com/ev52xv.gif" ng-if="member.name == 'abcdgh'">
-                  <a ng-href="{{member.link}}" target="_blank">
-                    {{member.name}}
-                  </a>
-                </td>
-                <td>
-                  {{member.score}}
-                </td>
-                <td>
-                  {{member.calculated_level | number:2}}
-                </td>
-                <td>
-                  {{member.highlights_count}}
-                </td>
-                <td>
-                  {{member.role_desc}}
-                </td>
-                <td>
-                  {{member.is_modder_desc}}
-                </td>
-                <td>
-                  {{member.point_may_use | number:2}}
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+    <nav class="navbar navbar-inverse navbar-embossed navbar-fixed-top navbar-static-top" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
+          <span class="sr-only">前往十字军之王吧</span>
+        </button>
+        <a class="navbar-brand" href="http://tieba.baidu.com/f?kw=%E5%8D%81%E5%AD%97%E5%86%9B%E4%B9%8B%E7%8E%8B&ie=utf-8">CK吧</a>
       </div>
-    </pane>
-
-
-    <pane title="精品">
-      <div ng-controller="Highlights">
-        <div class="page-header">
-          <div class="container">
-            <div class="input-group">
-              <span class="input-group-addon" id="search-addon-highlights">&#x1f50e;</span>
-              <input ng-model="query_highlight" class="form-control" placeholder="寻找神贴..." aria-describedby="search-addon-highlights">
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <table class="table table-bordered table-striped">
-            <thead>
-              <th>作者</th>
-              <th>标题</th>
-            </thead>
-            <tbody>
-              <tr ng-repeat="highlight in highlights | filter:query_highlight">
-                <td>
-                  {{highlight.member}}
-                </td>
-                <td>
-                  <a ng-href="{{highlight.link}}" target="_blank">
-                    {{highlight.title}}
-                  </a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-    </pane>
-
-  </tabs>
+      <div class="collapse navbar-collapse" id="navbar-collapse-01">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a ui-sref="MembersView">玩家</a></li>
+          <li><a ui-sref="HighlightView">精品</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </nav><!-- /navbar -->
+    <section ui-view class="container"></section>
   </body>
 </html>

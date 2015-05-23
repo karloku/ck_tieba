@@ -1,0 +1,25 @@
+<div class="page-header">
+  <div class="input-group">
+    <span class="input-group-addon">&#x1f50e;</span>
+    <input type="text" class="form-control" placeholder="寻找神贴..." ng-model="queryHighlight" aria-describedby="search-addon-highlights"/>
+  </div>
+</div>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <th>作者</th>
+    <th>标题</th>
+  </thead>
+  <tbody>
+    <tr ng-repeat="highlight in highlights | filter:queryHighlight">
+      <td>
+        {{highlight.member}}
+      </td>
+      <td>
+        <a ng-href="{{highlight.link}}" target="_blank">
+          {{highlight.title}}
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>

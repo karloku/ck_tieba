@@ -1,0 +1,45 @@
+<div class="page-header">
+  <div class="input-group">
+    <span class="input-group-addon">&#x1f50e;</span>
+    <input type="text" class="form-control" placeholder="寻找丧失..." ng-model="queryMembers" aria-describedby="search-addon-members"/>
+  </div>
+</div>
+<table class="table table-bordered table-striped">
+  <thead>
+    <th>用户名</th>
+    <th>积分</th>
+    <th>等级</th>
+    <th>精品数</th>
+    <th>吧务</th>
+    <th>制作组</th>
+    <th>abc-彩虹小马指数</th>
+  </thead>
+  <tbody>
+    <tr ng-repeat="member in members | filter:queryMembers">
+      <td>
+        <img src="http://i62.tinypic.com/ev52xv.gif" ng-if="member.name == 'abcdgh'">
+        <a ng-href="{{member.link}}" target="_blank">
+          {{member.name}}
+        </a>
+      </td>
+      <td>
+        {{member.score}}
+      </td>
+      <td>
+        {{member.calculated_level | number:2}}
+      </td>
+      <td>
+        {{member.highlights_count}}
+      </td>
+      <td>
+        {{member.role_desc}}
+      </td>
+      <td>
+        {{member.is_modder_desc}}
+      </td>
+      <td>
+        {{member.point_may_use | number:2}}
+      </td>
+    </tr>
+  </tbody>
+</table>
