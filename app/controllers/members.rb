@@ -26,10 +26,7 @@ CkTieba::App.controllers :members do
       order = :point_may_use
     end
 
-    @members = Member.where(:score.gt => 0).to_a.sort_by! do |member|
-      atr = member.send(order) 
-      atr.respond_to?(:>) && atr.respond_to?(:<) ? atr : atr.to_s
-    end.reverse!
+    @members = Member.where(:score.gt => 0).desc(order)
     
     render 'members/index'
   end

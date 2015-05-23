@@ -69,6 +69,10 @@ class Member
   validates_uniqueness_of :name
   has_many :highlights
 
+  index name: 1
+  index score: 1
+  index point_may_use: 1
+
   def highlights_count
     Highlight.where(author: self).count
   end
@@ -116,7 +120,5 @@ class Member
     self.point = calc_point
     self.point_may_use = calc_point_may_use
   end
-
-  index({name: 1}, {unique: true})
 
 end
