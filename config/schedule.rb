@@ -19,7 +19,7 @@
 
 # Learn more: http://github.com/javan/whenever
 
-job_type :padrino_rake, 'cd :path && padrino rake :task -e :environment'
+job_type :padrino_rake, 'cd :path && bundle exec padrino rake :task -e :environment'
 
 every 1.hour do 
   padrino_rake 'crawler:tieba_member_scores'
