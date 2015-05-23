@@ -1,11 +1,11 @@
 <div class="page-header">
   <div class="input-group">
-    <span class="input-group-addon">&#x1f50e;</span>
+    <span class="input-group-addon fui-search"></span>
     <input type="text" class="form-control" placeholder="寻找神贴..." ng-model="queryHighlight" aria-describedby="search-addon-highlights"/>
   </div>
 </div>
 
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped table-condensed">
   <thead>
     <th>作者</th>
     <th>标题</th>
@@ -16,9 +16,8 @@
         {{highlight.member}}
       </td>
       <td>
-        <a ng-href="{{highlight.link}}" target="_blank">
-          {{highlight.title}}
-        </a>
+        {{highlight.title}}
+        <a ng-href="{{highlight.link}}" target="_blank"><span class="fui-export"></span></a>
       </td>
     </tr>
   </tbody>

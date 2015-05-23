@@ -22,6 +22,9 @@ angular.module('app', ['ui.router','ui.bootstrap','ui.bootstrap.tpls'])
 .controller('membersController', function ($scope, $http) {
   $http.get('api/members').success(function(data) {
     $scope.members = data;
+    $scope.pageSize = 100;
+    $scope.currentPage = 0;
+    
   });
 })
 .controller('highlightsController', function ($scope, $http) {

@@ -1,10 +1,10 @@
 <div class="page-header">
   <div class="input-group">
-    <span class="input-group-addon">&#x1f50e;</span>
+    <span class="input-group-addon fui-search"></span>
     <input type="text" class="form-control" placeholder="寻找丧失..." ng-model="queryMembers" aria-describedby="search-addon-members"/>
   </div>
 </div>
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped table-condensed">
   <thead>
     <th>用户名</th>
     <th>积分</th>
@@ -18,9 +18,8 @@
     <tr ng-repeat="member in members | filter:queryMembers">
       <td>
         <img src="http://i62.tinypic.com/ev52xv.gif" ng-if="member.name == 'abcdgh'">
-        <a ng-href="{{member.link}}" target="_blank">
-          {{member.name}}
-        </a>
+        {{member.name}}
+        <a ng-href="{{member.link}}" target="_blank"><span class="fui-export"></span></a>
       </td>
       <td>
         {{member.score}}
