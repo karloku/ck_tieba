@@ -15,6 +15,34 @@
     <th>abc-彩虹小马指数</th>
   </thead>
   <tbody>
+    <tr>
+      <td>嘿, 这是你</td>
+      <td>
+        <input type="text" class="form-control flat" ng-model="yourScore" placeholder="你的贴吧分数">
+      </td>
+      <td>
+        {{yourLevel = level(yourScore) | number:2}}
+      </td>
+      <td>
+        <input type="text" class="form-control flat" ng-model="yourHighlights" placeholder="你的精品贴数">
+      </td>
+      <td>
+        <select ui-select2 class="form-control select select-primary" data-toggle="select" ng-model="yourRole" data-placeholder="吧友">
+          <option value=""></option>
+          <option value="0" selected="selected">吧友</option>
+          <option value="1.5">小吧</option>
+          <option value="2">大吧</option>
+        </select>
+      </td>
+      <td>
+        <label class="checkbox" for="checkbox_modder">
+          <input type="checkbox" value="" id="checkbox_modder" data-toggle="checkbox" class="custom-checkbox" ng-model="yourIsModder">
+        </label>
+      </td>
+      <td>
+        {{pointOf(yourScore, yourHighlights, yourRole, yourIsModder) | number:2}}
+      </td>
+    </tr>
     <tr ng-repeat="member in members | filter:queryMembers">
       <td>
         <img src="http://i62.tinypic.com/ev52xv.gif" ng-if="member.name == 'abcdgh'">
