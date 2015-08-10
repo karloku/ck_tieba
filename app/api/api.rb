@@ -1,6 +1,6 @@
 module CkTieba
   class API < Grape::API
-    version 'v1', using: :header, vendor: 'twitter'
+    version 'v1', using: :header, vendor: 'loku'
     format :json
     prefix :api
 
