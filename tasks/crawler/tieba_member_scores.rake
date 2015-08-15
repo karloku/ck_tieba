@@ -1,5 +1,5 @@
 
-  
+  desc '爬取成员分数'  
   task :'crawler:tieba_member_scores' => :environment do
     # This is a custom task.
     require 'open-uri'
