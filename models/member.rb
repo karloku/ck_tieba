@@ -62,8 +62,8 @@ class Member
   field :name, type: String
   field :link, type: String, default: ->{''}
   field :score, type: Integer, default: ->{0}
-  field :point, type: Float, default: ->{0}
-  field :point_may_use, type: Float, default: ->{0}
+  field :point, type: BigDecimal, default: ->{0}
+  field :point_may_use, type: BigDecimal, default: ->{0}
 
   validates_uniqueness_of :name
   has_many :highlights
@@ -94,25 +94,29 @@ class Member
   end
 
   def calculated_level
-    level_low = LEVEL.select do |l| l <= score end.last
+    level_low = LEVEL.select { |l| l <= score }.last
     level = LEVEL.index(level_low)
     next_level_score = LEVEL[level + 1] - level_low
     calculated_level = 
-      level.to_f + (score - level_low).to_f / next_level_score
+      BigDecimal.new(level) + BigDecimal.new(score - level_low) / BigDecimal.new(next_level_score)
+  end
+
+  def calc_level_point
+    (BigDecimal.new('0.25') * (calculated_level ** BigDecimal.new(2)) - BigDecimal.new('2.25') * calculated_level + BigDecimal.new(14)).floor(1)
   end
 
   def calc_point
-    0.25 * (calculated_level ** 2) - 2.25 * calculated_level + 14 + 
-    1.5 * highlights_count + 
-    ROLE_SCORES[role] + 
-    (is_modder? ? 2 : 0)
+    calc_level_point + 
+    BigDecimal.new('1.5') * BigDecimal.new(highlights_count) + 
+    BigDecimal.new(ROLE_SCORES[role].to_s) + 
+    BigDecimal.new(is_modder? ? 2 : 0)
   end
 
   def calc_point_may_use
-    0.25 * (calculated_level ** 2) - 2.25 * calculated_level + 14 +
-    30 * (1 - 0.95 ** highlights_count) +
-    ROLE_SCORES[role] +
-    (is_modder? ? 2 : 0)
+    calc_level_point +
+    BigDecimal.new(30) * (BigDecimal.new(1) - BigDecimal.new('0.95') ** BigDecimal.new(highlights_count)) +
+    BigDecimal.new(ROLE_SCORES[role].to_s) +
+    BigDecimal.new(is_modder? ? 2 : 0)
   end
 
   before_save do
