@@ -1,5 +1,5 @@
 
-  
+  desc '爬取精品贴'
   task :'crawler:tieba_highlights' => :environment do
     # This is a custom task.
     tieba_base = URI.encode 'http://tieba.baidu.com/f/good?kw=十字军之王&ie=utf-8&cid=0&pn=0'
