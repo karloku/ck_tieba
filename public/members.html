@@ -65,7 +65,7 @@
         {{member.is_modder_desc}}
       </td>
       <td>
-        {{member.point_may_use | number:2}}
+        {{Math.floor(member.point_may_use * 100) / 100}}
       </td>
     </tr>
   </tbody>

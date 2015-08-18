@@ -89,4 +89,9 @@ angular.module('app', ['ui.router','ui.bootstrap','ui.bootstrap.tpls','ui.select
   $http.get('api/highlights').success(function(data) {
     $scope.highlights = data;
   });
+})
+.filter('floor', function() {
+  return function(n) {
+    return Math.floor(n * 100) / 100;
+  };
 });
