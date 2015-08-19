@@ -20,7 +20,7 @@ set :branch, 'master'
 set :rbenv_path, '/home/ck/.rbenv'
 # Manually create these paths in shared/ (eg: shared/config/database.yml) in your server.
 # They will be linked in the 'deploy:link_shared_paths' step.
-set :shared_paths, ['config/database.rb', 'log', 'tmp']
+set :shared_paths, ['config/database.yml', 'log', 'tmp']
 
 # Optional settings:
 #   set :user, 'foobar'    # Username in the server to SSH to.
@@ -52,8 +52,8 @@ task :setup => :environment do
   queue! %[mkdir -p "#{deploy_to}/#{shared_path}/tmp"]
   queue! %[chmod g+rx,u+rwx "#{deploy_to}/#{shared_path}/tmp"]
 
-  queue! %[touch "#{deploy_to}/#{shared_path}/config/database.rb"]
-  queue  %[echo "-----> Be sure to edit '#{deploy_to}/#{shared_path}/config/database.rb'."]
+  queue! %[touch "#{deploy_to}/#{shared_path}/config/database.yml"]
+  queue  %[echo "-----> Be sure to edit '#{deploy_to}/#{shared_path}/config/database.yml'."]
 end
 
 desc "Deploys the current version to the server."

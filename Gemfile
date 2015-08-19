@@ -15,7 +15,8 @@ gem 'rake'
 
 # Component requirements
 gem 'haml'
-gem 'mongoid', '~>4.0.0'
+gem 'mongoid', '~> 5.0.0.beta'
+# gem 'ohm'
 
 # Test requirements
 

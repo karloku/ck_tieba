@@ -23,10 +23,18 @@ module CkTieba
           order = :point_may_use
         end
 
-        members = Member.where(:score.gt => 0).to_a.sort_by! do |member|
-          atr = member.send(order) 
-          atr.respond_to?(:>) && atr.respond_to?(:<) ? atr : atr.to_s
-        end.reverse!
+        members = Member.where(:score.gt => 0)
+        case order
+        when :point, :point_may_use
+          members = members.desc(order)
+        else
+          members.
+            sort_by! do |member|
+              atr = member.send(order) 
+              atr.respond_to?(:>) && atr.respond_to?(:<) ? atr : atr.to_s
+            end.
+            reverse!
+        end
 
         present members, with: Entities::Member
       end
