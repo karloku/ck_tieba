@@ -17,24 +17,14 @@ module CkTieba
     end
 
     resource :members do
+      params do
+        optional :page, type: Integer, default: 0
+      end
       get do 
-        order = params[:order].to_s.to_sym
-        if !Member.new.respond_to?(order)
-          order = :point_may_use
-        end
+        members = Member.includes(:highlights).where(:score.gte => 100).desc(:point_may_use).desc(:score).page(params.page).per(100)
 
-        members = Member.where(:score.gt => 0)
-        case order
-        when :point, :point_may_use
-          members = members.desc(order)
-        else
-          members.
-            sort_by! do |member|
-              atr = member.send(order) 
-              atr.respond_to?(:>) && atr.respond_to?(:<) ? atr : atr.to_s
-            end.
-            reverse!
-        end
+        header 'X-Pagination-Current-Page', members.current_page
+        header 'X-Pagination-Total-Items', members.count
 
         present members, with: Entities::Member
       end

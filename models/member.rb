@@ -1,5 +1,6 @@
 class Member
   include Mongoid::Document
+  paginates_per 100
 
   LEVEL = [
     0, 
@@ -62,18 +63,18 @@ class Member
   field :name, type: String
   field :link, type: String, default: ->{''}
   field :score, type: Integer, default: ->{0}
-  field :point, type: BigDecimal, default: ->{0}
-  field :point_may_use, type: BigDecimal, default: ->{0}
+  field :point, type: Float, default: ->{0}
+  field :point_may_use, type: Float, default: ->{0}
 
   validates_uniqueness_of :name
   has_many :highlights
 
   index name: 1
   index score: 1
-  index point_may_use: 1
+  index point_may_use: 1, score: 1
 
   def highlights_count
-    Highlight.where(author: self).count
+    highlights.size
   end
 
   def role
@@ -102,7 +103,11 @@ class Member
   end
 
   def calc_level_point
-    (BigDecimal.new('0.25') * (calculated_level ** BigDecimal.new(2)) - BigDecimal.new('2.25') * calculated_level + BigDecimal.new(14)).floor(1)
+    if calculated_level >= 6 
+      (BigDecimal.new('0.25') * (calculated_level ** BigDecimal.new(2)) - BigDecimal.new('2.25') * calculated_level + BigDecimal.new(14)).floor(1)
+    else
+      0
+    end
   end
 
   def calc_point

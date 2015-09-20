@@ -78,12 +78,22 @@ angular.module('app', ['ui.router','ui.bootstrap','ui.bootstrap.tpls','ui.select
     return calculatedPoint;  
   }
 
-  $http.get('api/members').success(function(data) {
-    $scope.members = data;
-    $scope.pageSize = 100;
-    $scope.currentPage = 0;
-    
-  });
+  $scope.maxSize = 10;
+  $scope.itemsPerPage = 100;
+
+  $scope.loadPage = function(page) {
+    $http.get('api/members?page=' + page).success(function(data, status, headers, config) {
+      $scope.members = data;
+      $scope.currentPage = headers('X-Pagination-Current-Page');
+      $scope.totalItems = headers('X-Pagination-Total-Items');
+    });
+  }
+
+  $scope.pageChanged = function() {
+    $scope.loadPage($scope.currentPage);
+  };
+
+  $scope.loadPage(1);
 })
 .controller('highlightsController', function ($scope, $http) {
   $http.get('api/highlights').success(function(data) {

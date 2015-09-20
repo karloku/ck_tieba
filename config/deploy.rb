@@ -10,7 +10,7 @@ require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 #   deploy_to    - Path to deploy into.
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
-set :domain, '121.201.24.187'
+set :domain, '121.201.63.212'
 set :deploy_to, '/home/ck/ck_tieba'
 set :repository, 'git://github.com/karloku/ck_tieba.git'
 set :branch, 'master'

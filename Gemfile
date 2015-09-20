@@ -15,13 +15,13 @@ gem 'rake'
 
 # Component requirements
 gem 'haml'
-gem 'mongoid', '~> 5.0.0.beta'
+gem 'mongoid', '~> 5.0.0'
 # gem 'ohm'
 
 # Test requirements
 
-# Padrino Stable Gem
-gem 'padrino', '0.12.5'
+# Padrino Edge Gem
+gem 'padrino', github: 'padrino/padrino-framework'
 
 # Grape
 gem 'grape'
@@ -33,8 +33,11 @@ gem 'rest_client'
 # modeling
 gem 'virtus'
 
+# pagination
+gem 'kaminari', github: 'amatsuda/kaminari'
+
 # server
-gem 'thin'
+gem 'puma'
 
 # redis
 gem 'redis'

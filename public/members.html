@@ -1,8 +1,10 @@
 <div class="page-header">
+<!--  
   <div class="input-group">
     <span class="input-group-addon fui-search"></span>
     <input type="text" class="form-control" placeholder="寻找丧失..." ng-model="queryMembers" aria-describedby="search-addon-members"/>
   </div>
+-->
 </div>
 <table class="table table-bordered table-striped table-condensed">
   <thead>
@@ -70,3 +72,6 @@
     </tr>
   </tbody>
 </table>
+<div class="pagination">
+  <pagination total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()" max-size="maxSize" boundary-links="true"></pagination>
+</div>

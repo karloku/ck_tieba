@@ -6,7 +6,7 @@
 
     url_base = 'http://tieba.baidu.com'
     url_template = 'http://tieba.baidu.com/f/like/furank?kw=%CA%AE%D7%D6%BE%FC%D6%AE%CD%F5&pn='
-    range = (1..100).to_a
+    range = (1..500).to_a
     range.each do |page|
       url = url_template + page.to_s
       puts url
