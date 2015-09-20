@@ -7,7 +7,9 @@
 
     has_next = true
 
+
     uri = URI.parse tieba_base
+    Highlight.destroy_all if open(uri).body.present?
     while has_next do
       puts uri
       res = Nokogiri(open(uri))
