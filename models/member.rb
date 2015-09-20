@@ -103,10 +103,13 @@ class Member
   end
 
   def calc_level_point
-    if calculated_level >= 6 
-      (BigDecimal.new('0.25') * (calculated_level ** BigDecimal.new(2)) - BigDecimal.new('2.25') * calculated_level + BigDecimal.new(14)).floor(1)
-    else
+    cl = calculated_level
+    if cl < 6 
       0
+    elsif cl <= 8
+      cl * 3 - 6
+    else
+      (BigDecimal.new('0.25') * (cl ** BigDecimal.new(2)) - BigDecimal.new('2.25') * cl + BigDecimal.new(14)).floor(1)
     end
   end
 
