@@ -106,7 +106,7 @@ class Member
     cl = calculated_level
     if cl < 6 
       0
-    elsif cl <= 8
+    elsif cl < 8
       cl * 3 - 6
     else
       (BigDecimal.new('0.25') * (cl ** BigDecimal.new(2)) - BigDecimal.new('2.25') * cl + BigDecimal.new(14)).floor(1)

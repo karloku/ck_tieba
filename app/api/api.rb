@@ -21,7 +21,7 @@ module CkTieba
         optional :page, type: Integer, default: 0
       end
       get do 
-        members = Member.includes(:highlights).where(:score.gte => 100).desc(:point_may_use).desc(:score).page(params.page).per(100)
+        members = Member.includes(:highlights).where(:score.gte => 500).desc(:point_may_use).desc(:score).page(params.page).per(100)
 
         header 'X-Pagination-Current-Page', members.current_page
         header 'X-Pagination-Total-Items', members.count
