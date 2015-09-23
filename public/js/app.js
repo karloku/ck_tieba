@@ -47,7 +47,7 @@ angular.module('app', ['ui.router','ui.bootstrap','ui.bootstrap.tpls','ui.select
 
   $scope.pointOf = function(score, highlights, role, isModder) {
     var levelPoint = function(level) {
-      if (!level) {
+      if (!level || level < 8) {
         return 0;
       }
 

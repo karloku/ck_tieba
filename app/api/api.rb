@@ -4,6 +4,11 @@ module CkTieba
     format :json
     prefix :api
 
+    use Rack::Runtime
+    use Rack::Head
+    use Rack::ConditionalGet
+    use Rack::ETag
+
     resource :highlights do
       get do
         highlights = Highlight.all.to_a
