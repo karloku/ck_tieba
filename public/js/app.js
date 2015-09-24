@@ -47,12 +47,16 @@ angular.module('app', ['ui.router','ui.bootstrap','ui.bootstrap.tpls','ui.select
 
   $scope.pointOf = function(score, highlights, role, isModder) {
     var levelPoint = function(level) {
-      if (!level || level < 8) {
+      if (!level || level < 6) {
         return 0;
       }
 
-      var levelPoint = 0.25 * (Math.pow(level, 2)) - 2.25 * level + 14;
-      return levelPoint;
+      if level < 8 {
+        var levelPoint = level + 4;
+      } else {
+        0.25 * (Math.pow(level, 2)) - 2.25 * level + 14;
+      }
+      return Math.floor(levelPoint * 10) / 10;
     };
 
     var highlightsPoint = function(highlights) {
