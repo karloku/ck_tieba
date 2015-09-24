@@ -107,7 +107,7 @@ class Member
     if cl < 6 
       0
     elsif cl < 8
-      cl * 3 - 6
+      cl + 4
     else
       (BigDecimal.new('0.25') * (cl ** BigDecimal.new(2)) - BigDecimal.new('2.25') * cl + BigDecimal.new(14)).floor(1)
     end
