@@ -51,12 +51,12 @@ angular.module('app', ['ui.router','ui.bootstrap','ui.bootstrap.tpls','ui.select
         return 0;
       }
 
-      if level < 8 {
+      if (level < 8) {
         var levelPoint = level + 4;
       } else {
-        0.25 * (Math.pow(level, 2)) - 2.25 * level + 14;
+        var levelPoint = 0.25 * (Math.pow(level, 2)) - 2.25 * level + 14;
       }
-      return Math.floor(levelPoint * 10) / 10;
+      return levelPoint;
     };
 
     var highlightsPoint = function(highlights) {
