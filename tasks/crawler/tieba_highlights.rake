@@ -2,18 +2,18 @@
   desc '爬取精品贴'
   task :'crawler:tieba_highlights' => :environment do
     # This is a custom task.
-    tieba_base = URI.encode 'http://tieba.baidu.com/f/good?kw=十字军之王&ie=utf-8&cid=0&pn=0'
+
+    tieba_base = URI.encode 'http://tieba.baidu.com/f?kw=十字军之王&ie=utf-8&tab=good&cid=0&pn=0'
     per_page = 50
 
     has_next = true
-
 
     uri = URI.parse tieba_base
     html = open(uri).read
     Highlight.destroy_all if html.present?
     while has_next do
       puts uri
-      res = Nokogiri(html)
+      res = Nokogiri(open(uri))
 
       highlights = res.css('li.j_thread_list.clearfix > div.t_con.cleafix > div.col2_right.j_threadlist_li_right > div.threadlist_lz.clearfix')
 
