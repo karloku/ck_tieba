@@ -57,7 +57,17 @@ class Member
     'wbxz1629',
     '谦逊的豌豆',
     'abcdgh',
-    'Kar_loku'
+    'Kar_loku',
+    '我是皮尔',
+    'Ellmann',
+    'atpoom',
+    'facitels2',
+    'sososzx',
+    '灰烬精灵',
+    '勃艮第的查理',
+    '毒龙之王',
+    '林品_Cj',
+    'yhz158'
   ]
 
   field :name, type: String
