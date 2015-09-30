@@ -22,31 +22,27 @@
     </thead>
     <tbody>
       <tr>
-        <td>嘿, 这是你</td>
         <td>
-          <input type="text" class="form-control flat" ng-model="yourScore" placeholder="你的贴吧分数">
+          <input type="text" id="your-name" class="form-control" placeholder="请输入账号名称" 
+                  ng-model="yourName" ng-change="findMember()" aria-describedby="search-addon-members"/>
         </td>
         <td>
-          {{yourLevel = level(yourScore) | number:2}}
+          {{you.score}}
         </td>
         <td>
-          <input type="text" class="form-control flat" ng-model="yourHighlights" placeholder="你的精品贴数">
+          {{you.calculated_level | number:2}}
         </td>
         <td>
-          <select ui-select2 class="form-control select select-primary" data-toggle="select" ng-model="yourRole" data-placeholder="吧友">
-            <option value=""></option>
-            <option value="0" selected="selected">吧友</option>
-            <option value="1.5">小吧</option>
-            <option value="2">大吧</option>
-          </select>
+          {{you.highlights_count}}
         </td>
         <td>
-          <label class="checkbox" for="checkbox_modder">
-            <input type="checkbox" value="" id="checkbox_modder" data-toggle="checkbox" class="custom-checkbox" ng-model="yourIsModder">
-          </label>
+          {{you.role_desc}}
         </td>
         <td>
-          {{pointOf(yourScore, yourHighlights, yourRole, yourIsModder) | number:2}}
+          {{you.is_modder_desc}}
+        </td>
+        <td>
+          {{you.point_may_use | floor}}
         </td>
       </tr>
       <tr ng-repeat="member in members | filter:queryMembers">

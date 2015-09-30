@@ -33,7 +33,16 @@ module CkTieba
 
         present members, with: Entities::Member
       end
+
+      route_param :name do
+        get do
+          member = Member.find_by(name: params.name)
+
+          present member, with: Entities::Member
+        end
+      end
     end
+
 
     module Entities
       class Highlight < Grape::Entity
