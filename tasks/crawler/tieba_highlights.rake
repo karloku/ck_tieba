@@ -9,10 +9,11 @@
 
 
     uri = URI.parse tieba_base
-    Highlight.destroy_all if open(uri).body.present?
+    html = open(uri).read
+    Highlight.destroy_all if html.present?
     while has_next do
       puts uri
-      res = Nokogiri(open(uri))
+      res = Nokogiri(html)
 
       highlights = res.css('li.j_thread_list.clearfix > div.t_con.cleafix > div.col2_right.j_threadlist_li_right > div.threadlist_lz.clearfix')
 
